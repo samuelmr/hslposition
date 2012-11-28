@@ -63,9 +63,9 @@ def index(line, dir):
     ent.vehicle.position.latitude = float(row[2])
     ent.vehicle.position.longitude = float(row[3])
     ent.vehicle.position.bearing = int(row[4])
-    if (len(row) >= 12):
-      ent.vehicle.position.speed = float(row[12]/3.6)
-    end
+    # speed not available in this message
+    # if (len(row) >= 12):
+    #   ent.vehicle.position.speed = float(row[12]/3.6)
   # print(msg);
   return msg.SerializeToString()
 
