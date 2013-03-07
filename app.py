@@ -14,7 +14,7 @@ api_ip = '83.145.232.209'
 
 live_api_url = 'http://' + api_ip + ':10001/?type=vehicles' + \
                '&lng1=23&lat1=60&lng2=26&lat2=61&online=1'
-gtfs_version = '20120224'
+gtfs_version = '20130304'
 weekdays = ['Su', 'Ma', 'Ti', 'Ke', 'To', 'Pe', 'La', 'Su']
 weekdays[-1] = 'Su';
 lt = time.localtime()
