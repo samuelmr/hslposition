@@ -1,0 +1,1 @@
+Convert vehicle location data from [HSL Live API](http://dl.dropbox.com/u/20567085/Mattersoft%20Live!%20interface%20description%20v1_6.pdf) push interface to [GTFS realtime](https://developers.google.com/transit/gtfs-realtime/) VechiclePosition messages.
