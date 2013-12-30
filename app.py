@@ -52,7 +52,7 @@ def index(line, dir):
     # if (len(row) >= 12):
     #   ent.vehicle.position.speed = float(row[12]/3.6)
     cnt += 1
-  print(msg);
+  # print(msg);
   return msg.SerializeToString()
 
 if __name__ == '__main__':
